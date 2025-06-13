@@ -183,7 +183,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Render the document and fix any errors</p></li>
 <li><p>Describe in your own words what the <code>mutate()</code> function does in this code-chunk</p></li>
 </ol>
-<p>&lt;The mutate function creates a new variable capita_kg_year and also organises the income category levels&gt;</p>
+<p>&lt;The mutate function creates a new variable capita_kg_year and also organises the income category levels from HIC to LIC&gt;</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>global_waste_data_kg_year <span class="ot">&lt;-</span> global_waste_data_small <span class="sc">|&gt;</span> </span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">capita_kg_year =</span> msw_tons_year <span class="sc">/</span> population <span class="sc">*</span> <span class="dv">1000</span>) <span class="sc">|&gt;</span> </span>
@@ -210,15 +210,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Render the document and fix any errors</p></li>
 <li><p>Look at the plot that you created and describe what the <code>mutate()</code> function achieved in the previous task</p></li>
 </ol>
-<!--# Remove this comment and write your text here -->
+<p>&lt;The mutate function enabled the creation of the new variable of MSW generation per capita which makes it easier to compare countries of varying populations&gt;</p>
 <ol start="5" type="1">
 <li>Describe in your own words what the ‘color’ argument inside the <code>aes()</code> does</li>
 </ol>
-<!--# Remove this comment and write your text here -->
+<p>&lt;Color argument helps to distingush between the different income levels on the plot by assigning specific colours to each income group&gt;</p>
 <ol start="6" type="1">
 <li>Describe in your own words what the <code>labs()</code> function does</li>
 </ol>
-<!--# Remove this comment and write your text here -->
+<p>&lt;Labs is used to label the x and y axis on the plot&gt;</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> global_waste_data_kg_year,</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>       <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> income_id, </span>
