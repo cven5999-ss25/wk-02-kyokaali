@@ -11,15 +11,30 @@ Learning reflections are part of your weekly homework and have a weight of 20% o
 
 # Lecture
 
-<!--# Add your reflections on the lecture of this week here -->
+\<I watched the recording of the lecture and found it very engaging and supportive,
+especially for beginners like me. I appreciated the instructor's effort to
+create an inclusive environment where students could ask questions freely. The
+live coding format was particularly helpful it allowed learners to follow along
+and troubleshoot in real time. This interactive approach made coding feel less
+intimidating and more manageable. Although I still find it challenging, I am
+encouraged by the structure and delivery of the course. It is motivating to learn
+alongside others, and I am genuinely looking forward to applying what I learn
+in future assignments\>
 
 # Homework Assignment
 
-<!--# Add your reflections on the homework programming assignment here -->
+\<As someone new to coding, the Week 2 assignment was both challenging and
+rewarding. I was introduced to essential R functions like mutate(), aes(), and labs()
+and learned how data can be cleaned, transformed, and visualized to uncover
+meaningful patterns. It was fascinating to see how a few lines of code could
+produce clear, insightful plots. I can already see how these skills could
+enhance how I communicate technical data to stakeholders in my current role.
+Though many concepts are still new, completing the assignment has boosted my
+confidence and sparked a deeper curiosity to keep learning coding.\>
 
 # Readings
 
-<!--# Add your reflections on the required readings here -->
+\<As someone new to coding, I found the Introduction to *R for Data Science* very helpful and encouraging. It explains the steps of working with data like importing, cleaning, transforming, and visualizing in a clear and simple way. I liked how it suggested starting with visualization, which feels more exciting and easier to understand. The reading makes data science feel more hands on and less intimidating. It gave me a better idea of what to expect and increased my interest in learning how to use R for real world data problems. I will definitely reread this and the other assigned readings.\>
 
 # Submit learning reflections
 
